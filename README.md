@@ -9,7 +9,7 @@
     Input: signals or power in .fsdb  
     Output: a pickle file, including a list of Signal objects   
 
-    - helper.py  
+    dependent on helper.py  
         Class: Signal   
             -name: signal names    
             -values: with toggle information   
@@ -22,6 +22,12 @@
     e.g. signalList.npz, signalListName.npy, power.npy    
 
 - 2\_loadSigPow.py
+    Input: the pickle file with a list of Signal objects
+    e.g. signalList.pickle
+
+    Output: bit toggles, bit names
+    e.g. signalList_bit.npz, signalList_bitNameW.npy
+
 
 ## Step 2. Build ML model
 
