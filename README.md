@@ -6,4 +6,5 @@
 
 ### 1.1. Paring .fsdb files
 
+### 1.2. Paring .power files
 
