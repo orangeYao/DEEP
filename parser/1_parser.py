@@ -186,26 +186,16 @@ def openFile(fileName, sv_fd = './'):
 
     finish(fileHandle)
 
-#fileNamePow = "/opt/share/zhiyaoPersonal/Cortex-A53-r0p4-52rel0/cortexa53/implementation_cln28hpm_zhiyao/" 
-#openFile(fileNamePow)
-
-#fds = ['max_powerNew/', 'dhrystoneNew/', 'saxpyNew/', 'max_power_L2New/', 'arm_okNew/', 'cache_missNew/', 'wfi64New/', 
-#       'neon_vfpNew/', 'neon_vfpNew/', 'simd_intNew/', 'simd_fpNew/', 'comb_opNew/', 'pow_opNew/']
-#fds = ['comb_opNew/']
-#fds = ['comb_opRt/', 'pow_opRt/']
 fds = ['neon_vfpRt/', 'cache_missRt/', 'saxpyRt/', 'dhrystoneRt/', 'simd_fpRt/',
        'simd_intRt/', 'wfiRt/', 'max_powerRt/', 'max_power_L2Rt/', 'arm_okRt/']
 
 for fd in fds:
     print ('Start', fd)
     sys.stdout = open(fd + '/1_parser.log', 'w')
-    data_dir = "/opt/share/zhiyaoPersonal/Cortex-A53-r0p4-52rel0/cortexa53/implementation_cln28hpm_zhiyao/ICCAD22_stage1/"
+    data_dir = "./"
     data_dir = data_dir + fd
 
-    #for fsdb in ['/*vcd.fsdb', '/*synthesis.fsdb']: # signal, power
-    #for fsdb in ['/*synthesis.fsdb']: # signal, power
-    #for fsdb in ['/*vcd.fsdb']: # signal, power
-    for fsdb in ['/*route.fsdb']: # power
+    for fsdb in ['/*vcd.fsdb', '/*route.fsdb']: # signals, power
         fileNameSigs = glob.glob(data_dir + fsdb)
         if len(fileNameSigs) < 1:
             print (fsdb + ' not found!! Skip!', fileNameSigs)
