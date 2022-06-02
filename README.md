@@ -4,7 +4,7 @@
 
 ## Step 1. Paring design information
 
-### Paring .fsdb and .power files
+### Paring .fsdb and .power files in parser/
 - 1\_parser.py   
     Input: signals or power in .fsdb  
     Output: a pickle file, including a list of Signal objects   
@@ -29,7 +29,7 @@
     e.g. signalList_bit.npz, signalList_bitNameW.npy
 
 
-## Step 2. Build ML model
+## Step 2. Build ML model in model/
 
 
 
