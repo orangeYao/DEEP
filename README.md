@@ -29,7 +29,9 @@
     e.g. signalList_bit.npz, signalList_bitNameW.npy
 
 
-## Step 2. Build ML model in model/
+## Step 2. Build ML model 
+
+### Train power model in model/
 
 
 
