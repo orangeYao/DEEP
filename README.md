@@ -21,7 +21,7 @@
     Output: signal toggles, signal names, power values    
     e.g. signalList.npz, signalListName.npy, power.npy    
 
-- 2\_loadSigPow.py
+- 2\_loadSigPow.py   
     Input: the pickle file with a list of Signal objects
     e.g. signalList.pickle
 
