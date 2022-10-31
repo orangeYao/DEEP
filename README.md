@@ -9,7 +9,7 @@ Zhiyao Xie, et al. [DEEP: Developing Extremely Efficient Runtime On-Chip Power M
 ## Step 0. Run an ordinary design flow (only as example)
 
 ### The basic digital design flow for experiment is in flow\_share/  
-Design flow scripts are specific to designs, libraries, and EDA tools. For this part, for your reference, we provide some basic synthesis/layout scripts and open-sourced design RTL targeting Nangate 45nm library. 
+Design flow scripts are specific to designs, libraries, and EDA tools. For this part, we provide some basic synthesis/layout scripts and open-sourced design RTL targeting Nangate 45nm library as an example. 
 
 - Design implementation flow (example scripts in **flow_share/**)   
     Input: design RTL, technology library (NanGate 45nm)  
@@ -34,7 +34,7 @@ Design flow scripts are specific to designs, libraries, and EDA tools. For this 
 ### Paring .fsdb and .power files in parser/
 - **1\_parser.py**   
     This FSDB parser requires api from Synopsys Verdi.   
-    Optionally you can write your own parser from scratch on a VCD file.   
+    Optionally we can write our own parser from scratch on a VCD file.   
     Input: signals or power in .fsdb  
     Output: a pickle file, including a list of Signal objects   
 
