@@ -1,0 +1,77 @@
+ 
+****************************************
+Report : reference
+Design : b14
+Version: T-2022.03-SP2
+Date   : Thu Oct 27 19:06:14 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2_X1            typical        1.064000      46     48.944000  
+AND3_X1            typical        1.330000       2      2.660000  
+AND4_X1            typical        1.596000       2      3.192000  
+AOI21_X1           typical        1.064000      41     43.624000  
+AOI22_X1           typical        1.330000     681    905.730029  
+AOI211_X1          typical        1.330000       1      1.330000  
+AOI221_X1          typical        1.596000     179    285.683992  
+AOI222_X1          typical        2.128000      72    153.216002  
+BUF_X1             typical        0.798000    1214    968.771973  
+CLKBUF_X1          typical        0.798000       7      5.586000  
+DFFR_X1            typical        5.320000     215   1143.800037  n
+INV_X1             typical        0.532000    1024    544.768005  
+NAND2_X1           typical        0.798000     207    165.185995  
+NAND3_X1           typical        1.064000      31     32.984000  
+NAND4_X1           typical        1.330000      53     70.490002  
+NOR2_X1            typical        0.798000      43     34.313999  
+NOR3_X1            typical        1.064000       4      4.256000  
+NOR4_X1            typical        1.330000       1      1.330000  
+OAI21_X1           typical        1.064000     395    420.280004  
+OAI22_X1           typical        1.330000     111    147.630005  
+OAI33_X1           typical        1.862000       1      1.862000  
+OAI211_X1          typical        1.330000      37     49.210002  
+OAI221_X1          typical        1.596000      73    116.507997  
+OAI222_X1          typical        2.128000      34     72.352001  
+OR2_X1             typical        1.064000      24     25.536000  
+OR3_X1             typical        1.330000       7      9.310000  
+OR4_X1             typical        1.596000       1      1.596000  
+XNOR2_X1           typical        1.596000       7     11.172000  
+XOR2_X1            typical        1.596000       6      9.576000  
+b14_DW01_add_0_DW01_add_4       121.828001       1    121.828001  h
+b14_DW01_add_1_DW01_add_5       121.828001       1    121.828001  h
+b14_DW01_add_2_DW01_add_6       121.828001       1    121.828001  h
+b14_DW01_add_3_DW01_add_7       121.828001       1    121.828001  h
+b14_DW01_add_4_DW01_add_8        84.055999       1     84.055999  h
+b14_DW01_add_5_DW01_add_9        69.425999       1     69.425999  h
+b14_DW01_add_6_DW01_add_10      126.084001       1    126.084001  h
+b14_DW01_add_7_DW01_add_11      126.084001       1    126.084001  h
+b14_DW01_add_8_DW01_add_12      126.084001       1    126.084001  h
+b14_DW01_add_9_DW01_add_13      126.084001       1    126.084001  h
+b14_DW01_add_10_DW01_add_14      83.524001       1     83.524001  h
+b14_DW01_add_11_DW01_add_15      83.524001       1     83.524001  h
+b14_DW01_cmp6_0_DW01_cmp6_8     163.058000       1    163.058000  h
+b14_DW01_sub_0                  137.522001       1    137.522001  h
+b14_DW01_sub_1                  137.522001       1    137.522001  h
+b14_DW01_sub_2                  137.522001       1    137.522001  h
+b14_DW01_sub_3                  137.522001       1    137.522001  h
+b14_DW01_sub_4                   88.045999       1     88.045999  h
+b14_DW01_sub_6                  142.310001       1    142.310001  h
+b14_DW01_sub_7                  142.310001       1    142.310001  h
+b14_DW01_sub_8                  142.310001       1    142.310001  h
+b14_DW01_sub_9                  142.310001       1    142.310001  h
+b14_DW01_sub_10                  98.153999       1     98.153999  h
+b14_DW01_sub_11                  97.887999       1     97.887999  h
+-----------------------------------------------------------------------------
+Total 53 references                                  8159.550061
+1

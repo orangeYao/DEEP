@@ -1,0 +1,112 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.4/_46367_archive_1.a",
+            "objects": [
+                [
+                    "JgFM9_d.o",
+                    7440
+                ],
+                [
+                    "amcQwB.o",
+                    39222
+                ]
+            ],
+            "size": 46662
+        }
+    ],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "and_power_testbench": {
+            "nMops": 183,
+            "Compiled": "Yes",
+            "start_perf": [
+                0.11779699672479182,
+                0.034646000000000003,
+                0.032607999999999998,
+                185460,
+                198576,
+                1645507442.4754889,
+                106298884604959966
+            ],
+            "child_modules": {},
+            "Compiled Times": 5,
+            "nQuads": 139,
+            "end_perf": [
+                0.12347999680787325,
+                0.038004999999999997,
+                0.034923999999999997,
+                189540,
+                198576,
+                106298884622032522,
+                8589934593,
+                0
+            ],
+            "nRouts": 22
+        },
+        "...MASTER...": {
+            "nMops": 0,
+            "start_perf": [
+                0.1121289967559278,
+                0.033714000000000001,
+                0.030648999999999999,
+                184964,
+                198576,
+                1645507442.469821,
+                106298884587951258
+            ],
+            "child_modules": {
+                "and_power_testbench": 1
+            },
+            "nQuads": 0,
+            "end_perf": [
+                0.11767799674998969,
+                0.034589000000000002,
+                0.032554,
+                185460,
+                198576,
+                106298884604659782,
+                0,
+                0
+            ],
+            "nRouts": 5
+        }
+    },
+    "CompUnits": {
+        "JgFM9_d": {
+            "out": "JgFM9_d.o",
+            "mod": "and_power_testbench",
+            "bytes": 7440,
+            "checksum": 0,
+            "text": 1521,
+            "mode": 4,
+            "archive": "archive.4/_46367_archive_1.a"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_nvcsw": 35,
+            "ru_utime_sec": 0.038648000000000002,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.037629999999999997,
+            "ru_maxrss_kb": 54444,
+            "ru_nivcsw": 36,
+            "ru_minflt": 20525
+        },
+        "ru_childs_end": {
+            "ru_nvcsw": 1,
+            "ru_utime_sec": 0.0,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.0027650000000000001,
+            "ru_maxrss_kb": 9124,
+            "ru_nivcsw": 2,
+            "ru_minflt": 604
+        },
+        "peak_mem_kb": 198576,
+        "cpu_cycles_end": 106298884631985210
+    }
+}

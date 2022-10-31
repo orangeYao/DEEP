@@ -1,0 +1,67 @@
+ 
+****************************************
+Report : area
+Design : b14
+Version: T-2022.03-SP2
+Date   : Thu Oct 27 19:06:13 2022
+****************************************
+
+Library(s) Used:
+
+    typical (File: /home/eezhiyao/Libs/NanGate/Nan45Flow/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                         2209
+Number of nets:                          8434
+Number of cells:                         5918
+Number of combinational cells:           5653
+Number of sequential cells:               215
+Number of macros/black boxes:               0
+Number of buf/inv:                       2634
+Number of references:                      53
+
+Combinational area:               7015.750024
+Buf/Inv area:                     1726.871981
+Noncombinational area:            1143.800037
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  8159.550061
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------------
+b14                               8159.5501    100.0  4137.0980  1143.8000  0.0000  b14
+add_122                             69.4260      0.9    69.4260     0.0000  0.0000  b14_DW01_add_5_DW01_add_9
+add_348                            121.8280      1.5   121.8280     0.0000  0.0000  b14_DW01_add_3_DW01_add_7
+add_368                            121.8280      1.5   121.8280     0.0000  0.0000  b14_DW01_add_2_DW01_add_6
+add_428                            121.8280      1.5   121.8280     0.0000  0.0000  b14_DW01_add_1_DW01_add_5
+add_468                            121.8280      1.5   121.8280     0.0000  0.0000  b14_DW01_add_0_DW01_add_4
+r473                                83.5240      1.0    83.5240     0.0000  0.0000  b14_DW01_add_11_DW01_add_15
+r474                                83.5240      1.0    83.5240     0.0000  0.0000  b14_DW01_add_10_DW01_add_14
+r475                                98.1540      1.2    98.1540     0.0000  0.0000  b14_DW01_sub_10
+r477                               126.0840      1.5   126.0840     0.0000  0.0000  b14_DW01_add_9_DW01_add_13
+r479                               126.0840      1.5   126.0840     0.0000  0.0000  b14_DW01_add_8_DW01_add_12
+r481                               142.3100      1.7   142.3100     0.0000  0.0000  b14_DW01_sub_9
+r483                               142.3100      1.7   142.3100     0.0000  0.0000  b14_DW01_sub_8
+r485                               126.0840      1.5   126.0840     0.0000  0.0000  b14_DW01_add_7_DW01_add_11
+r487                               142.3100      1.7   142.3100     0.0000  0.0000  b14_DW01_sub_7
+r489                               126.0840      1.5   126.0840     0.0000  0.0000  b14_DW01_add_6_DW01_add_10
+r491                               142.3100      1.7   142.3100     0.0000  0.0000  b14_DW01_sub_6
+r493                                84.0560      1.0    84.0560     0.0000  0.0000  b14_DW01_add_4_DW01_add_8
+r496                               163.0580      2.0   163.0580     0.0000  0.0000  b14_DW01_cmp6_0_DW01_cmp6_8
+sub_111                             97.8880      1.2    97.8880     0.0000  0.0000  b14_DW01_sub_11
+sub_273                             88.0460      1.1    88.0460     0.0000  0.0000  b14_DW01_sub_4
+sub_388                            137.5220      1.7   137.5220     0.0000  0.0000  b14_DW01_sub_3
+sub_408                            137.5220      1.7   137.5220     0.0000  0.0000  b14_DW01_sub_2
+sub_448                            137.5220      1.7   137.5220     0.0000  0.0000  b14_DW01_sub_1
+sub_488                            137.5220      1.7   137.5220     0.0000  0.0000  b14_DW01_sub_0
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------------------------
+Total                                                 7015.7500  1143.8000  0.0000
+
+1

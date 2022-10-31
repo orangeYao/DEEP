@@ -1,0 +1,118 @@
+0 
+22
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/libvirsim.so /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/liberrorinf.so /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/libsnpsmalloc.so /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/libvfs.so
+-Mout=and_power
+-Msaverestoreobj=/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/ctype-stubs_32.a -ldl
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/include
+-f filelist
+-gen_obj
+-o and_power
+-picarchive
+/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/bin/vcs1
+81
+sysc_uni_pwd=/home/zx52/designFlowRelated/NAS_EDA/NanGate45_1/rtl/and_power
+XDG_SESSION_ID=109124
+XDG_RUNTIME_DIR=/run/user/1159461
+XDG_DATA_DIRS=/home/zx52/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XA_SHARED_LICENSE_ORDER=xsim:hsim-ms:hsim-sc:fastspice_xa+nanosim
+XA_HOME=/opt/synopsys/xa/N-2017.12-SP5
+WV_HOME=/opt/synopsys/wv/N-2017.12-SP2
+VMR_MODE_FLAG=32
+VERDI_HOME=/opt/synopsys/verdi_2021/verdi/S-2021.09-SP1
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux
+TESSENT_HOME=/opt/mentor/tessent
+SYSTEM_CDS_LIB_DIR=/opt/cadence/IC616/share/cdssetup/dfII
+SYN_HOME=/opt/synopsys/syn/N-2017.09-SP5-4
+SYNOPSYS_HOME=/opt/synopsys
+SYNOPSYS=/opt/synopsys/esp/N-2017.12-SP1
+SWT_GTK3=0
+SSH_TTY=/dev/pts/41
+SSH_CONNECTION=10.172.132.27 60346 10.148.54.138 22
+SSH_CLIENT=10.172.132.27 60346 22
+SOCHOME=/opt/cadence/edi
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=10.172.132.27
+RCHOME=/opt/cadence/rc
+QRC_HOME=/opt/cadence/ext
+QRC_ENABLE_EXTRACTION=t
+PVS_HOME=/opt/cadence/pvs
+PT_HOME=/opt/synopsys/pts/R-2020.09-SP4
+OVA_UUM=0
+OSTYPE=linux
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc44x
+OAHOME=/opt/cadence/IC616/oa_v22.43.054
+MW_HOME=/opt/synopsys/milkyway/mw/P-2019.03-SP3
+MODELSIM_HOME=/opt/mentor/modelsim/modeltech
+MMSIMHOME=/opt/cadence/mmsim171
+MGC_HOME=/opt/mentor/calibre/aoi_cal_2018.2_52.40
+MGC_AMS_HOME=/opt/mentor/ams
+LIBRARY_PATH=/home/zx52/ARM_2021/tools/zlib-1.2.11/install_location/lib
+LIBERATEHOME=/opt/cadence/liberate
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/opt/synopsys/libcomp/lc/P-2019.03-SP3
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LAKER_HOME=/opt/synopsys/laker
+IUS_HOME=/opt/cadence/incisive/tools.lnx86
+INNO_HOME=/opt/cadence/innovus171
+INNOHOME=/opt/cadence/innovus171
+INCISIVHOME=/opt/cadence/incisive
+ICC_HOME=/opt/synopsys/icc/N-2017.09-SP5-4
+ICC2_HOME=/opt/synopsys/icc2/icc2/P-2019.03-SP3
+HSPICE_HOME=/opt/synopsys/hspice/N-2017.12-SP2-2
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=ldapusers
+FM_HOME=/opt/synopsys/fm/N-2017.09-SP5
+ESP_HOME=/opt/synopsys/esp/N-2017.12-SP1
+C_INCLUDE_PATH=/home/zx52/ARM_2021/tools/install_protobuf32/include/google/protobuf/:/home/zx52/ARM_2021/tools/zlib-1.2.11/install_location/include
+CPLUS_INCLUDE_PATH=/home/zx52/ARM_2021/tools/install_protobuf32/include/google/protobuf/:/home/zx52/ARM_2021/tools/zlib-1.2.11/install_location/include
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=27400@license01.egr.duke.edu
+CDS_INSTALL=/opt/cadence
+CDS_AUTO_64BIT=ALL
+CDSHOME=/opt/cadence/IC616
+CALIBRE_HOME=/opt/mentor/calibre/aoi_cal_2018.2_52.40
+CADENCE_HOME=/opt/cadence
+ASSURAHOME=/opt/cadence/assura41
+AMS_MODEL_TECH=/home/opt/mentor/ams
+AMSHOME=/opt/cadence/incisive
+0
+3
+1645507002 and_power.v
+1645507433 and_power_testbench.v
+1645504953 filelist
+5
+0 
+1542344660 /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/libvirsim.so
+1542343774 /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/liberrorinf.so
+1542343655 /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/libsnpsmalloc.so
+1542344275 /opt/synopsys/vcs-mx/vcs-mx/N-2017.12-SP2-5/linux/lib/libvfs.so
+1645507442 and_power.daidir

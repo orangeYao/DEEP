@@ -1,0 +1,17 @@
+
+include ../script/syn_set.scr
+
+
+search_path = {. library_path } 
+link_library = {"*" library_name };
+target_library = {library_name }
+
+/*             Design Ware Foundation :         */
+/* -------------------------------------------- */
+
+command_log_file = "./command.log";
+designer = "" ;
+company = "FTC" 
+
+
+compile_new_optimization = "true"

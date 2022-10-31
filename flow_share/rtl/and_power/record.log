@@ -1,0 +1,11 @@
+
+https://www.cs.utexas.edu/users/fussell/courses/cs352h/handouts/verilog/vcs_tut.html
+
+vcs -o and_power -Mupdate -f filelist
+
+./and_power
+    > and_power.vcd
+
+
+
+

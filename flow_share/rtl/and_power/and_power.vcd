@@ -1,0 +1,94 @@
+$date
+	Tue Feb 22 00:24:04 2022
+$end
+
+$version
+	Synopsys VCS version N-2017.12-SP2-5
+$end
+
+$timescale
+	10ps
+$end
+
+$comment Csum: 1 ab68ca9775ddbdc4 $end
+
+
+$scope module and_power_testbench $end
+$var wire 1 ! out $end
+$var reg 1 " i1 $end
+$var reg 1 # i2 $end
+$var reg 1 $ i3 $end
+$var reg 1 % i4 $end
+$var reg 1 & clk $end
+
+$scope module dut $end
+$var wire 1 " i1 $end
+$var wire 1 # i2 $end
+$var wire 1 $ i3 $end
+$var wire 1 % i4 $end
+$var wire 1 & clk $end
+$var wire 1 ! out $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0&
+1"
+1#
+1$
+1%
+x!
+$end
+1!
+#500
+1&
+#1000
+0&
+#1500
+1&
+#2000
+0&
+#2500
+1&
+#3000
+0"
+0!
+0&
+#3500
+1&
+#4000
+0&
+#4500
+1&
+#5000
+1"
+1!
+0&
+#5500
+1&
+#6000
+0&
+#6500
+1&
+#7000
+0&
+#7500
+1&
+#8000
+0&
+#8500
+1&
+#9000
+0"
+0!
+0&
+#9500
+1&
+#10000
+0&
+#10500
+1&

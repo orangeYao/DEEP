@@ -1,0 +1,39 @@
+
+This machine: (slightly faster)
+dc - b19
+runtime 217 seconds
+
+
+dc_shell Cortex-A53
+real    234m54.617s
+user    1365m59.930s
+sys     32m13.828s
+
+
+innovus - b14
+--- Ending "Innovus" (totcpu=0:03:39, real=0:03:59, mem=2533.0M) ---
+
+innovus - b19
+--- Ending "Innovus" (totcpu=0:56:20, real=0:56:20, mem=2875.9M) ---
+
+
+=====================================
+
+138:
+
+dc_shell b19
+Runtime: 257 seconds
+
+dc_shell Cortex-A53
+real    234m5.992s
+user    1260m51.251s
+sys 22m21.808s
+
+innovus b14
+--- Ending "Innovus" (totcpu=0:03:46, real=0:07:30, mem=1020.6M) ---
+--- Ending "Innovus" (totcpu=0:03:46, real=0:03:58, mem=1028.8M) ---
+
+innovus b19
+--- Ending "Innovus" (totcpu=0:59:01, real=1:03:39, mem=1898.3M) ---
+
+

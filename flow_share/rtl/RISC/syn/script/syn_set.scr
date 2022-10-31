@@ -1,0 +1,13 @@
+
+/*
+	MPCA Benchmark
+*/
+
+/**************************
+ * synthesis library path *
+ **************************/
+
+library_path =  /home/project/fasic310/fec0h_e/models/synopsys
+library_name =  fec0h_e_wc.db
+
+

@@ -1,0 +1,95 @@
+/* -------------------------------------------- */
+/*                  Read design                 */
+/* -------------------------------------------- */
+
+include ../script/setup.scr 
+hdlin_enable_vpp = true
+hdlin_vpp_temporary_directory = ./VPP/
+hdlin_preserve_vpp_files = true
+
+analyze -f verilog ../../hdl/abcdef.v
+analyze -f verilog ../../hdl/abcde.v
+analyze -f verilog ../../hdl/abcd.v
+analyze -f verilog ../../hdl/abc.v
+analyze -f verilog ../../hdl/bcdefg.v
+analyze -f verilog ../../hdl/bcdef.v
+analyze -f verilog ../../hdl/bcde.v
+analyze -f verilog ../../hdl/bcd.v
+analyze -f verilog ../../hdl/cdefgh.v
+analyze -f verilog ../../hdl/cdefg.v
+analyze -f verilog ../../hdl/cdef.v
+analyze -f verilog ../../hdl/cde.v
+analyze -f verilog ../../hdl/defghi.v
+analyze -f verilog ../../hdl/defgh.v
+analyze -f verilog ../../hdl/defg.v
+analyze -f verilog ../../hdl/def.v
+analyze -f verilog ../../hdl/efghij.v 
+analyze -f verilog ../../hdl/efghi.v
+analyze -f verilog ../../hdl/efgh.v
+analyze -f verilog ../../hdl/efg.v
+analyze -f verilog ../../hdl/fghijk.v
+analyze -f verilog ../../hdl/fghij.v
+analyze -f verilog ../../hdl/fghi.v
+analyze -f verilog ../../hdl/fgh.v
+analyze -f verilog ../../hdl/ghijkl.v
+analyze -f verilog ../../hdl/ghijk.v
+analyze -f verilog ../../hdl/ghij.v
+analyze -f verilog ../../hdl/ghi.v
+analyze -f verilog ../../hdl/hijklm.v
+analyze -f verilog ../../hdl/hijkl.v
+analyze -f verilog ../../hdl/hijk.v
+analyze -f verilog ../../hdl/hij.v
+analyze -f verilog ../../hdl/ijklmn.v
+analyze -f verilog ../../hdl/ijklm.v
+analyze -f verilog ../../hdl/ijkl.v
+analyze -f verilog ../../hdl/ijk.v
+analyze -f verilog ../../hdl/jklmno.v
+analyze -f verilog ../../hdl/jklmn.v
+analyze -f verilog ../../hdl/jklm.v
+analyze -f verilog ../../hdl/jkl.v
+analyze -f verilog ../../hdl/klmnop.v
+analyze -f verilog ../../hdl/klmno.v
+analyze -f verilog ../../hdl/klmn.v 
+analyze -f verilog ../../hdl/lmnop.v
+analyze -f verilog ../../hdl/lmno.v
+analyze -f verilog ../../hdl/mnopq.v
+analyze -f verilog ../../hdl/mnop.v
+analyze -f verilog ../../hdl/mno.v
+analyze -f verilog ../../hdl/nopqr.v
+analyze -f verilog ../../hdl/nopq.v
+analyze -f verilog ../../hdl/nop.v
+analyze -f verilog ../../hdl/opqrs.v
+analyze -f verilog ../../hdl/opqr.v
+analyze -f verilog ../../hdl/opq.v
+analyze -f verilog ../../hdl/pqrst.v
+analyze -f verilog ../../hdl/pqrs.v
+analyze -f verilog ../../hdl/pqr.v
+analyze -f verilog ../../hdl/qrstu.v
+analyze -f verilog ../../hdl/qrst.v
+analyze -f verilog ../../hdl/rstuv.v
+analyze -f verilog ../../hdl/rstu.v
+analyze -f verilog ../../hdl/rst.v 
+analyze -f verilog ../../hdl/stuvw.v
+analyze -f verilog ../../hdl/stuv.v
+analyze -f verilog ../../hdl/stu.v
+analyze -f verilog ../../hdl/tuvwx.v
+analyze -f verilog ../../hdl/tuvw.v
+analyze -f verilog ../../hdl/tuv.v
+analyze -f verilog ../../hdl/uvwxy.v
+analyze -f verilog ../../hdl/uvwx.v
+analyze -f verilog ../../hdl/uvw.v
+analyze -f verilog ../../hdl/vwxyz.v
+analyze -f verilog ../../hdl/vwxy.v
+analyze -f verilog ../../hdl/vwx.v
+analyze -f verilog ../../hdl/wxyz.v
+analyze -f verilog ../../hdl/wxy.v
+analyze -f verilog ../../hdl/xyz.v
+analyze -f verilog ../../hdl/zzzz.v
+
+analyze -f verilog ../run/sram_128x22.v
+analyze -f verilog ../run/sram_4x32.v
+analyze -f verilog ../run/sram_512x32.v
+
+elaborate frisc 
+current_design frisc 
+link 

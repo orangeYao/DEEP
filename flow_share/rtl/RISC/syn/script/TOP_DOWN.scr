@@ -1,0 +1,58 @@
+
+remove_design -all
+include ../script/TOP_DOWNread.scr
+
+/* -------------------------------------------- */
+/*             Design Ware Foundation :         */
+/* -------------------------------------------- */
+
+set_fix_multiple_port_nets -all -buffer_constants
+
+hdlin_enable_presto = false
+
+foreach (des, find( -hierarchy design"*")) {
+  current_design des
+  set_fix_multiple_port_nets -all -buffer_constants
+}
+
+current_design frisc
+
+/* ----- Top compile ----- */
+
+compile_no_new_cells_at_dsp_level = "true"
+
+include ../script/RISC.cons
+
+uniquify
+
+current_design frisc
+
+set_wire_load_mode enclosed
+
+/*--------------------- Compile for RISC --------------------------*/
+
+compile -map_effort high
+compile -map_effort high -incremental_mapping
+
+report_area > ../rpt/t_risc.res
+report_reference >> ../rpt/t_risc.res
+report_timing -nworst 1 -max_paths 200 -sort_by slack >> ../rpt/t_risc.res
+
+current_design frisc
+link
+
+ include ../script/ftc_name_rule.dcsh
+ current_design frisc 
+ change_names -rules ftc_core_rule -hierarchy
+ current_design frisc 
+ change_names -rules ftc_top_rule
+ current_design frisc 
+
+/* write out script */
+write -f verilog -h -o ../../netlist/RISC_CORE.v frisc
+write -f db -h -o ../../netlist/RISC_CORE.db frisc
+
+
+
+
+exit

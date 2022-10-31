@@ -1,0 +1,17 @@
+#! /bin/csh -f
+
+set fn = `date +%m%d` 
+
+label:
+echo "run dc_shell"
+
+dc_shell -f ../script/TOP_DOWN.scr| tee TOP_DOWN.log.$fn
+
+if ($status) then
+  sleep 1 
+  goto label
+endif
+
+
+####
+

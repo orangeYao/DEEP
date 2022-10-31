@@ -1,0 +1,20 @@
+
+define_design_lib -path $work_lib_path work
+
+analyze -f verilog -library work $hdl_path/dma_top.v
+analyze -f verilog -library work $hdl_path/dma_ahbdec.v
+analyze -f verilog -library work $hdl_path/dma_ahbmst.v
+analyze -f verilog -library work $hdl_path/dma_ahbmux.v
+analyze -f verilog -library work $hdl_path/dma_ahbslv.v
+analyze -f verilog -library work $hdl_path/dma_chrf.v
+analyze -f verilog -library work $hdl_path/dma_chsel.v
+analyze -f verilog -library work $hdl_path/dma_ctlrf.v
+analyze -f verilog -library work $hdl_path/dma_engine.v
+analyze -f verilog -library work $hdl_path/dma_fifo.v
+analyze -f verilog -library work $hdl_path/dma_rrarb.v
+
+elaborate -library work dma_top
+uniquify
+
+link 
+

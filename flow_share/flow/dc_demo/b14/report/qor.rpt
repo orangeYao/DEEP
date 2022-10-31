@@ -1,0 +1,85 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'b14' contains 1 high-fanout nets. A fanout number of 200 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : qor
+Design : b14
+Version: T-2022.03-SP2
+Date   : Thu Oct 27 19:06:13 2022
+****************************************
+
+
+  Timing Path Group 'clock'
+  -----------------------------------
+  Levels of Logic:              97.00
+  Critical Path Length:          5.89
+  Critical Path Slack:           4.07
+  Critical Path Clk Period:     10.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         24
+  Hierarchical Port Count:       2121
+  Leaf Cell Count:               5868
+  Buf/Inv Cell Count:            2634
+  Buf Cell Count:                1224
+  Inv Cell Count:                1410
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      5653
+  Sequential Cell Count:          215
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     7015.750024
+  Noncombinational Area:  1143.800037
+  Buf/Inv Area:           1726.871981
+  Total Buffer Area:           976.75
+  Total Inverter Area:         750.12
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              8159.550061
+  Design Area:            8159.550061
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          6523
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: acf3030
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    3.16
+  Logic Optimization:                  2.42
+  Mapping Optimization:                7.27
+  -----------------------------------------
+  Overall Compile Time:               14.14
+  Overall Compile Wall Clock Time:    14.47
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

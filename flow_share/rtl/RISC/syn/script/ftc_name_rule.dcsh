@@ -1,0 +1,108 @@
+
+define_name_rules ftc_top_rule \
+-allowed "a-z A-Z 0-9 _ " \
+-max_length 16 \
+-first_restricted "0-9_" \
+-last_restricted "_" \
+-target_bus_naming_style "%s\[%d\]" \
+-map {{"_$", ""}, {"^_", ""}, {"__", "_"}} \
+-type port \
+-reserved_words { \
+"always","assign","begin","case","casex","casez", \
+"deassign","default","defparam","disable","edge", \
+"else","end","endcase","endfunction","endmodule", \
+"endprimitive","endspecify","endtable","endtask", \
+"event","for","force","forever","fork","function", \
+"highz0","highz1","if","initial","inout","input", \
+"integer","join","large","macromodule","medium", \
+"module","negedge","output","parameter","posedge", \
+"primitive","pull0","pull1","reg","release","repeat", \
+"scalared","small","specify","specparam","strong0", \
+"strong1","supply0","supply1","table","task","time", \
+"tri","tri0","tri1","triand","trior","trireg", \
+"vectored","wait","wand","weak0","weak1","while", \
+"wire","wor",  \
+"ALIAS","BIDIRECT","CEND","COMPSEGMENT","END", \
+"ENDC","ENDCOMPS","ENDIMPLS","ENDMACRO","ENDNETS", \
+"END_OF_FILE","EQUIVALENCE","EXT","EXTCONNECTOR", \
+"FROM","IMPLSEGMENT","INPUTS","LEVEL","MACRO", \
+"NETSEGMENT","NULL","OUTPUTS","PURPOSE","TO", \
+"TYPES","USER","USERNAME", \
+"abs","access","after","alias","all", \
+"and","architecture","array","assert","attribute", \
+"begin","block","body","buffer","bus", \
+"case","component","configuration","constant","disconnect", \
+"downto","else","elsif","end","entity", \
+"exit","file","for","function","generate", \
+"generic","guarded","if","in","inout", \
+"is","label","library","linkage","loop", \
+"map","mod","nand","new","next", \
+"nor","not","null","of","on", \
+"open","or","others","out","package", \
+"port","procedure","process","range","record", \
+"register","rem","report","return","select", \
+"severity","signal","subtype","then","to", \
+"transport","type","units","until","use", \
+"variable","wait","when","while","with", \
+"xor" };
+
+define_name_rules ftc_top_rule \
+-type net \
+-target_bus_naming_style "%s_%d"
+
+
+define_name_rules ftc_core_rule \
+-allowed "a-z A-Z 0-9 _" \
+-max_length 256 \
+-first_restricted "0-9_" \
+-last_restricted "_" \
+-target_bus_naming_style "%s\[%d\]" \
+-map {{"_$", ""}, {"^_", ""}, {"__", "_"}} \
+-reserved_words { \
+"always","assign","begin","case","casex","casez", \
+"deassign","default","defparam","disable","edge", \
+"else","end","endcase","endfunction","endmodule", \
+"endprimitive","endspecify","endtable","endtask", \
+"event","for","force","forever","fork","function", \
+"highz0","highz1","if","initial","inout","input", \
+"integer","join","large","macromodule","medium", \
+"module","negedge","output","parameter","posedge", \
+"primitive","pull0","pull1","reg","release","repeat", \
+"scalared","small","specify","specparam","strong0", \
+"strong1","supply0","supply1","table","task","time", \
+"tri","tri0","tri1","triand","trior","trireg", \
+"vectored","wait","wand","weak0","weak1","while", \
+"wire","wor",  \
+"ALIAS","BIDIRECT","CEND","COMPSEGMENT","END", \
+"ENDC","ENDCOMPS","ENDIMPLS","ENDMACRO","ENDNETS", \
+"END_OF_FILE","EQUIVALENCE","EXT","EXTCONNECTOR", \
+"FROM","IMPLSEGMENT","INPUTS","LEVEL","MACRO", \
+"NETSEGMENT","NULL","OUTPUTS","PURPOSE","TO", \
+"TYPES","USER","USERNAME", \
+"abs","access","after","alias","all", \
+"and","architecture","array","assert","attribute", \
+"begin","block","body","buffer","bus", \
+"case","component","configuration","constant","disconnect", \
+"downto","else","elsif","end","entity", \
+"exit","file","for","function","generate", \
+"generic","guarded","if","in","inout", \
+"is","label","library","linkage","loop", \
+"map","mod","nand","new","next", \
+"nor","not","null","of","on", \
+"open","or","others","out","package", \
+"port","procedure","process","range","record", \
+"register","rem","report","return","select", \
+"severity","signal","subtype","then","to", \
+"transport","type","units","until","use", \
+"variable","wait","when","while","with", \
+"xor" };
+
+define_name_rules ftc_core_rule \
+-type net \
+-target_bus_naming_style "%s_%d"
+
+view_script_submenu_items = \
+{ "Apply FTC CORE name rule", "change_names -rules ftc_core_rule -hierarchy", \
+"Apply FTC TOP name rule", "change_names -rules ftc_top_rule" };
+
+

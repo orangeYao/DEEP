@@ -1,0 +1,2 @@
+set init_pwr_net {VDD PWRD PWRA PWRIO}
+set init_gnd_net {VSS GNDD GNDA GNDIO}

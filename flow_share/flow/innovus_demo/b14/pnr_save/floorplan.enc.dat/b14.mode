@@ -1,0 +1,17 @@
+catch { setDesignMode -process 45 }
+catch { setAnalysisMode -analysisType single }
+catch { setExtractRCMode  -engine preRoute -total_c_th 5 -relative_c_th 0.03 -coupling_c_th 3 }
+catch {setNanoRouteMode -quiet -extractThirdPartyCompatible false}
+
+catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepInstInSdc false -keepFlatten true }
+catch { setDelayCalMode -engine aae }
+catch { setImportMode -discardFloatingVNets false }
+catch { setImportMode -keepEmptyModule true }
+catch { setAddStripeMode -extend_to_closest_target area_boundary }
+catch { setAddStripeMode -extend_to_first_ring true }
+catch { setAddStripeMode -use_exact_spacing true }
+catch { setEndCapMode -boundary_tap false }
+catch { setFPlanMode -defaultTechSite FreePDK45_38x28_10R_NP_162NW_34O }
+catch { setFPlanMode -maxIoHeight false }
+catch { setFPlanMode -place_check_ignore_fixed_cell_list {} }
+catch { setFPlanMode -powerRailLayer {} }

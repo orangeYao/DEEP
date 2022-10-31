@@ -1,0 +1,26 @@
+__START__
+b14
+__END__
+b19
+sasc
+aes_core
+systemcdes
+simple_spi
+mem_ctrl
+pci
+b18
+__END__
+des
+ss_pcm
+systemcaes
+__END__
+aes_core
+ethernet
+__END__
+spi
+spi
+fpu
+__END__
+
+Not sucessful:
+i2c
